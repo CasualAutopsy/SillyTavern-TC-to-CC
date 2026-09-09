@@ -1,0 +1,36 @@
+<div id="tccc_settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b>TC to CC</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content tccc-content">
+            <h4 class="standoutHeader title_restorable">
+                <div class="flex-container">
+                    <span>Hide Additional Parameters Textareas</span>
+                </div>
+            </h4>
+            <div class="flex-container">
+                <input id="tccc_exclude_body" type="checkbox">
+                <small>Hide Exclude Body</small>
+                <input id="tccc_include_request" type="checkbox">
+                <small>Hide Include Request</small>
+            </div>
+            <br/>
+            <h4 class="standoutHeader title_restorable">
+                <div class="flex-container">
+                    <span>Parameter Filter</span>
+                </div>
+            </h4>
+            <div class="flex-container">
+                <input id="tccc_filter_enabled" type="checkbox">
+                <small>Enable</small>
+                <input id="tccc_filter_whitelist" type="checkbox">
+                <small>Whitelist (Off = Blacklist)</small>
+            </div>
+            <textarea id="tccc_filter_parameters" class="text_pole textarea_compact" rows="10" placeholder="Parameter keys seperated by newline. e.g.
+min_p
+top_k"></textarea>
+        </div>
+    </div>
+</div>

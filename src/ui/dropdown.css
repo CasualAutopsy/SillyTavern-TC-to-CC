@@ -1,0 +1,9 @@
+.ttcc_flex {
+    display: flex;
+    flex: 0;
+    flex-direction: row;
+}
+
+.tccc_button {
+    flex: 1;
+}

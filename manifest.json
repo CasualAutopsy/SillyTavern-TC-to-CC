@@ -1,0 +1,11 @@
+{
+    "display_name": "TC to CC",
+    "loading_order": 999,
+    "requires": [],
+    "optional": [],
+    "js": "dist/index.js",
+    "author": "CasualAutopsy",
+    "version": "1.0.0",
+    "homePage": "https://github.com/CasualAutopsy/SillyTavern-TC-to-CC",
+    "auto_update": false
+}
